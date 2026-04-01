@@ -1,0 +1,9 @@
+operator_id,operator_name,primary_ai_product,committed_capacity_mw,capex_2026_bn_usd,clean_energy_pct_estimate,hardware_primary,hardware_custom,tokens_per_month_trillion_estimate,confidence,last_updated
+microsoft,Microsoft,Azure AI / Copilot / OpenAI,50000,80,60,NVIDIA H100/B200,MAIA 100,500,HIGH,2026-03-31
+google,Google / Alphabet,Gemini / Google Cloud AI,20000,75,64,TPU v5/v6 + NVIDIA H100,TPU Trillium / Axion,1300,HIGH,2026-03-31
+amazon,Amazon / AWS,Bedrock / Nova / Trainium,12000,100,50,NVIDIA H100 + Trainium2,Trainium2 / Inferentia2,400,HIGH,2026-03-31
+meta,Meta,Llama / Meta AI,5000,65,55,NVIDIA H100/H200/B200,MTIA v2,200,HIGH,2026-03-31
+openai_stargate,OpenAI / Stargate,GPT / o-series / Sora,7000,50,20,NVIDIA H100/B200/GB200,None confirmed,259,MED,2026-03-31
+oracle,Oracle,OCI AI / Stargate partner,3000,20,30,NVIDIA H100/B200,None,50,MED,2026-03-31
+coreweave,CoreWeave,GPU cloud (NVIDIA specialist),5850,15,30,NVIDIA H100/H200/B200,None,100,MED,2026-03-31
+xai,xAI (Elon Musk),Grok,1000,5,10,NVIDIA H100,None,25,MED,2026-03-31

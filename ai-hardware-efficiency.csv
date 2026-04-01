@@ -1,0 +1,10 @@
+chip_id,vendor,chip_name,generation,release_year,tdp_w,rack_power_kw,flops_bf16_tflops,memory_gb,tokens_per_second_estimate,joules_per_output_token_estimate,kwh_per_million_output_tokens,tokens_per_kwh_millions,efficiency_vs_h100_baseline,deployed_by,notes
+nvidia_h100_sxm,NVIDIA,H100 SXM5,Hopper,2022,700,10.2,1979,80,2000,1.25,0.35,2.9,1.0,"Microsoft,Google,Meta,Amazon,CoreWeave,xAI,OpenAI",Current dominant training GPU; widespread deployment
+nvidia_b200,NVIDIA,B200 (Blackwell),Blackwell,2025,1000,120,4500,192,6000,0.42,0.12,8.3,2.9,"Microsoft,Google,Meta,CoreWeave,OpenAI",2-3x more efficient than H100; GB200 NVL72 rack at 120kW
+nvidia_gb300,NVIDIA,GB300 NVL144,Blackwell Ultra,2025,1050,163,5000,192,8000,0.35,0.10,10.0,3.5,"Microsoft,Google,Meta",163kW per NVL144 rack; shipping 2025-2026
+nvidia_rubin_nvl144,NVIDIA,Rubin NVL144,Rubin,2026,null,300,null,null,15000,0.19,0.05,20.0,6.9,TBD,Announced; 300+kW/rack projected; ~5x H100 efficiency
+nvidia_rubin_ultra,NVIDIA,Rubin Ultra NVL576,Rubin Ultra,2027,null,600,null,null,40000,0.07,0.02,50.0,17.2,TBD,Projected 600kW/rack by 2027; ~17x H100 efficiency
+google_tpu_v5p,Google,TPU v5p,v5,2024,450,null,918,96,2500,1.00,0.28,3.6,1.2,Google,Google-only; ~1.2x H100 on Gemini workloads; TPU pod architecture
+google_tpu_v6,Google,TPU v6 Trillium,v6,2024,400,null,1200,128,4000,0.63,0.18,5.7,1.9,Google,Most efficient publicly known chip for LLM inference at scale
+amazon_trainium2,Amazon,Trainium2,2nd gen,2024,700,95,3840,96,3000,0.83,0.23,4.3,1.5,Amazon,"Claims 4x perf/$ vs H100 for training; AWS-only"
+apple_m4_ondevice,Apple,M4 / A18 Pro (edge),M4,2024,30,0.03,38,32,40,0.21,0.06,16.7,5.8,"Apple devices","iPhone/MacBook on-device inference; RAM streaming. 100-500x more efficient for small models"

@@ -1,0 +1,14 @@
+operator_id,source_type,committed_mw,status,location,partner,contract_years,notes,source_url,confidence,last_updated
+microsoft,nuclear,835,contracted,Pennsylvania USA,Constellation Energy / Three Mile Island,20,Unit 1 restart 2028; 20yr PPA with Constellation,https://www.datacenterdynamics.com/en/news/three-mile-island-nuclear-power-plant-to-return-as-microsoft-signs-20-year-835mw-ai-data-center-ppa/,HIGH,2026-03-31
+microsoft,solar_wind_portfolio,33865,contracted,Multiple USA,,20+,34.7 GW total clean portfolio as of Sep 2025; largest clean power buyer globally,https://www.spglobal.com/sustainable1/en/insights/special-editorial/hyperscaler-procurement-to-shape-us-power-investment,HIGH,2026-03-31
+google,solar_btm,840,under_construction,Haskell County TX USA,Intersect Power (acquired $4.75B),0,Co-located solar farm with data center campus; grid-bypassing BTM architecture,https://techcrunch.com/2025/12/22/alphabet-to-buy-intersect-power-to-bypass-energy-grid-bottlenecks/,HIGH,2026-03-31
+google,storage_btm_gwh,1300,under_construction,Haskell County TX USA,Intersect Power,,1.3 GWh battery storage co-located with solar; note: GWh not MW,https://intuitionlabs.ai/articles/google-intersect-acquisition-ai-energy,HIGH,2026-03-31
+google,solar_wind_portfolio,18000,contracted,Multiple USA,,,Part of broader clean portfolio; 24/7 CFE target (currently 64%),https://www.spglobal.com/sustainable1/en/insights/special-editorial/hyperscaler-procurement-to-shape-us-power-investment,HIGH,2026-03-31
+amazon,nuclear_adjacent,,active,Pennsylvania USA,Talen Energy (Cumulus Data),,"DC campus adjacent to nuclear plant; not direct nuclear PPA",https://introl.com/blog/nuclear-power-ai-data-centers-microsoft-google-amazon-2025,MED,2026-03-31
+amazon,solar_wind_portfolio,,contracted,Multiple USA,,,Large renewable portfolio; expanding rapidly,https://tech-insider.org/ai-data-center-power-crisis-2026/,MED,2026-03-31
+meta,solar_wind_portfolio,,contracted,Multiple USA,,,Substantial clean energy PPAs; BTM exploration ongoing,,MED,2026-03-31
+openai_stargate,gas_onsite,2300,ordered,Texas USA,,"20+",Largest ever onsite gas generation order; 2.3 GW plant,https://newsletter.semianalysis.com/p/how-ai-labs-are-solving-the-power,HIGH,2026-03-31
+oracle,nuclear_smr,1000,announced,USA TBD,SMR vendor TBD,,3 small nuclear reactors for 1GW campus; vendor and timeline TBD,https://www.tomshardware.com/tech-industry/oracle-will-use-three-small-nuclear-reactors-to-power-new-1-gigawatt-ai-data-center,MED,2026-03-31
+oracle,gas_onsite,2300,ordered,Texas USA,,,"Shared 2.3 GW gas plant with OpenAI/Stargate",https://newsletter.semianalysis.com/p/how-ai-labs-are-solving-the-power,HIGH,2026-03-31
+xai,gas_mobile,,active,Memphis TN USA,,,Mobile gas turbines deployed for rapid power during Colossus buildout,,MED,2026-03-31
+xai,grid,,active,Memphis TN USA,,,Grid-connected via Memphis city utility,,MED,2026-03-31

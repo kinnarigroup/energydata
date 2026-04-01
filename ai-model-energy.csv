@@ -1,0 +1,9 @@
+model_id,model_name,provider,model_class,params_b_estimate,hardware,joules_per_output_token,kwh_per_million_output_tokens,kwh_per_million_input_tokens,tokens_per_kwh_millions,recs_per_million_tokens,tokens_per_rec_millions,median_prompt_wh,co2_per_prompt_g,confidence,source_url,notes
+claude_opus_4,Claude Opus 4.x,Anthropic,frontier_top,200,NVIDIA H100/B200,2.0,0.56,0.14,1.8,0.00056,1.8,null,null,LOW,,Estimated from model size + hardware benchmarks; no official disclosure
+claude_sonnet_4,Claude Sonnet 4.x,Anthropic,frontier_midtier,70,NVIDIA H100/B200,0.5,0.14,0.04,7.1,0.00014,7.1,null,null,LOW,,Estimated; ~4x more efficient than Opus per token
+gpt4o,GPT-4o,OpenAI,frontier_top,200,NVIDIA H100 (Azure),1.5,0.42,0.10,2.4,0.00042,2.4,null,null,LOW,,Estimated; no official disclosure from OpenAI
+gemini_15_pro,Gemini 1.5 Pro,Google,frontier_top,null,Google TPU v5,1.0,0.28,0.07,3.6,0.00028,3.6,0.10,0.02,HIGH,https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference/,"Best public disclosure; Google confirmed 0.10 Wh/median prompt, 0.02gCO2e"
+llama3_70b,Llama 3 70B,Meta (open source),open_large,70,NVIDIA H100/A100,0.8,0.22,0.06,4.5,0.00022,4.5,null,null,MED,https://llm-tracker.info/_TOORG/Power-Usage-and-Energy-Efficiency,Open source; research measurements ~3-4J/token for 65B model
+llama3_8b,Llama 3 8B,Meta (open source),open_small,8,NVIDIA A10/L4,0.08,0.022,0.006,45.5,0.000022,45.5,null,null,MED,,~10x more efficient than 70B per token
+phi3_mini,Phi-3 Mini,Microsoft (open source),open_tiny,3.8,CPU/mobile,0.02,0.006,0.001,167,0.000006,167,null,null,LOW,,Very efficient small model suitable for edge deployment
+on_device_m4,On-device (Apple M4),Apple,edge,3,Apple M4/A18,0.003,0.001,0.0003,1000,0.000001,1000,null,null,LOW,,"iPhone 17 / MacBook RAM streaming; ~1000x more efficient than datacenter for capable tasks"
