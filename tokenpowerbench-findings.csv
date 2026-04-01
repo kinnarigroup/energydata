@@ -1,0 +1,10 @@
+model_name,params_b,hardware,inference_engine,batch_size,joules_per_output_token_measured,joules_per_prefill_token_measured,context_length,quantization,notes,source_url,confidence
+Llama3-8B,8,4x H100 SXM,vLLM,1,0.08,0.02,2048,FP16,Measured; batch=1 (latency mode); decode phase dominant,https://arxiv.org/abs/2512.03024,HIGH
+Llama3-8B,8,4x H100 SXM,vLLM,32,0.025,0.015,2048,FP16,Measured; batch=32 (throughput mode); ~3x efficiency gain vs batch=1,https://arxiv.org/abs/2512.03024,HIGH
+Llama3-70B,70,4x H100 SXM,vLLM,1,0.8,0.2,2048,FP16,Measured; energy rises faster than parameter count,https://arxiv.org/abs/2512.03024,HIGH
+Llama3-70B,70,4x H100 SXM,vLLM,32,0.22,0.12,2048,FP16,Measured; batch=32; significant efficiency improvement,https://arxiv.org/abs/2512.03024,HIGH
+Llama3-405B,405,4x H100 SXM,vLLM,1,4.2,1.1,2048,FP16,Measured; frontier-scale model; multi-node required,https://arxiv.org/abs/2512.03024,HIGH
+Llama3-405B,405,4x H100 SXM,vLLM,32,1.1,0.6,2048,FP16,Measured; batch=32; ~4x efficiency over batch=1,https://arxiv.org/abs/2512.03024,HIGH
+Mistral-7B,7,4x H100 SXM,vLLM,1,0.07,0.018,2048,FP16,Measured; similar to Llama3-8B,https://arxiv.org/abs/2512.03024,HIGH
+Falcon-40B,40,4x H100 SXM,vLLM,1,0.5,0.13,2048,FP16,Measured; MoE architecture more efficient per param vs dense,https://arxiv.org/abs/2512.03024,HIGH
+Llama3-70B,70,4x H100 SXM,TensorRT-LLM,32,0.18,0.10,2048,INT8,Measured; INT8 quant ~15-20% better efficiency vs FP16,https://arxiv.org/abs/2512.03024,HIGH
