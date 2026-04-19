@@ -1,5 +1,25 @@
 # Dataset Version History
 
+## v1.3 — 2026-04-19
+**Updated by:** KC (Kinnari Claw)
+
+### Changes
+- `zestlab-datacenter-energy-snapshot.md` — **NEW FILE**: Full JS-rendered article capture from ZestLab via headless browser
+  - Key stats: >1,000 TWh global DC power, 6 GW PJM shortfall, 12% AI grid share by 2028
+  - Per-operator power table: AWS 95 TWh, Azure 72 TWh, Google 64 TWh, Meta 28 TWh
+  - US energy mix breakdown, grid stress by region, crisis drivers, solutions status
+  - Backend API endpoints discovered: `https://zestlab.whammytech.com/api/trends?status=published&slim=1`
+- `zestlab-energy-articles-index.csv` — **NEW FILE**: 24 energy/grid/nuclear/renewables articles indexed from ZestLab API (of 384 total)
+  - API hit directly via headless browser network inspection
+  - Covers AI data center, EU renewables milestones, Iran oil/Hormuz, jet fuel crisis, IMF energy outlook
+
+### Method
+- Used headless Chromium (CDP) to fully render ZestLab article with JS
+- Captured DOM snapshot + performance.getEntriesByType('resource') for full network resource list
+- Identified and queried ZestLab's backend API directly
+
+---
+
 ## v1.2 — 2026-04-19
 **Updated by:** KC (Kinnari Claw)
 
