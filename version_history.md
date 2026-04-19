@@ -1,5 +1,23 @@
 # Dataset Version History
 
+## v1.4 — 2026-04-19
+**Updated by:** KC (Kinnari Claw)
+
+### Changes
+- `vertiv-vrt-2026-rally-snapshot.md` — **NEW FILE**: Full headless-browser capture of AlphaStreet Vertiv (VRT) analysis
+  - Q4 2025 financials: revenue $2.88B (+22.7%), adj EPS $1.36 (+37%), FCF $910M (+151%)
+  - Backlog $15B (+109% YoY), book-to-bill 2.9x, orders +252% YoY
+  - FY2025 net sales $10.23B, organic growth 26%, adj FCF $1.9B
+  - 2026 guidance: revenue $13.25-13.75B, adj EPS $5.97-6.07
+  - Peer comparison tables: VRT vs Eaton, Schneider, Hubbell (revenue, growth, liquid cooling, software tools, market cap)
+  - Rally drivers, risks, bull case, analyst consensus
+  - Direct links to Vertiv Q4 FY2025 earnings release and presentation PDF
+
+### Source
+- AlphaStreet: https://news.alphastreet.com/vertiv-holdings-nysevrt-extends-2026-rally-after-64-surge-ai-data-center-demand-and-cooling-backlog-in-focus/
+
+---
+
 ## v1.3 — 2026-04-19
 **Updated by:** KC (Kinnari Claw)
 
