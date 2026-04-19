@@ -1,0 +1,5 @@
+indicator,value,unit,scope,year,notes,confidence,source_url,added_date
+global_dc_electricity_consumption,1000,TWh,global,2026,Projected; AI workloads scaling up; exceeds 1000 TWh threshold,MED,https://zestlab.io/en/trends/ai-data-center-energy-crisis-2026,2026-04-19
+pjm_grid_shortfall,6,GW,PJM region (US),2027,Projected capacity shortfall on PJM interconnection due to AI demand growth,MED,https://zestlab.io/en/trends/ai-data-center-energy-crisis-2026,2026-04-19
+ai_share_us_grid,12,pct,US,2026,AI data centers as percentage of total US electricity grid consumption,MED,https://zestlab.io/en/trends/ai-data-center-energy-crisis-2026,2026-04-19
+dc_fossil_fuel_powered,60,pct,global,2026,Estimated share of data center electricity sourced from fossil fuels,MED,https://zestlab.io/en/trends/ai-data-center-energy-crisis-2026,2026-04-19

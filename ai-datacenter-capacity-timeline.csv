@@ -4,7 +4,7 @@ year,us_ai_dc_power_gw_actual_estimate,us_ai_dc_twh_annual,us_total_dc_twh_annua
 2023,10,88,130,50,1.0,Rapid H100 deployment begins,,
 2024,15,131,150,100,2.0,H100 clusters reaching scale; SPAC wave in nuclear,,
 2025,20,175,176,125,4.0,Blackwell deployment begins; Intersect acquisition; 176 TWh confirmed,https://tech-insider.org/ai-data-center-power-crisis-2026/
-2026,30,263,220,140,8.0,Projected; Stargate coming online; OpenAI 2.3GW gas plant,,
+2026,30,263,220,140,8.0,Projected; Stargate coming online; OpenAI 2.3GW gas plant; global DC consumption >1000 TWh (Zestlab); AI = 12% US grid,https://zestlab.io/en/trends/ai-data-center-energy-crisis-2026,
 2027,45,394,280,155,15.0,Projected; Rubin GPUs; nuclear restart (TMI Unit 1),,
 2028,65,569,350,165,25.0,Projected; SMRs coming online; major BTM buildout,,
 2029,85,745,430,170,38.0,Projected,,

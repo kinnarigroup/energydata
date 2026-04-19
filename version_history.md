@@ -1,5 +1,22 @@
 # Dataset Version History
 
+## v1.2 — 2026-04-19
+**Updated by:** KC (Kinnari Claw)
+
+### Changes
+- `grid-macro-indicators.csv` — **NEW FILE**: macro grid demand stats from Zestlab (March 2026)
+  - Global data center electricity >1,000 TWh projected for 2026
+  - PJM grid shortfall: 6 GW by 2027
+  - AI = 12% of US electricity grid
+  - 60% of data center power from fossil fuels
+- `ai-datacenter-capacity-timeline.csv` — updated 2026 row notes to cross-reference global TWh figure and Zestlab source
+- `README.md` — added new file entry; added Zestlab to sources
+
+### Source
+- Zestlab: https://zestlab.io/en/trends/ai-data-center-energy-crisis-2026 (published March 19, 2026)
+
+---
+
 ## v1.1 — 2026-04-01
 **Updated by:** KC (Kinnari Claw)
 

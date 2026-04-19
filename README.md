@@ -19,7 +19,8 @@ This dataset tracks AI compute infrastructure, power commitments, hardware effic
 | `ai-datacenter-power-sources.csv` | Specific power deals/contracts by operator | 13 | 2026-03-31 |
 | `ai-hardware-efficiency.csv` | GPU/chip specs: TDP, tokens/kWh, efficiency vs baseline | 9 | 2026-03-31 |
 | `ai-model-energy.csv` | LLM energy estimates: J/token, kWh/1M tokens, REC math | 8 | 2026-03-31 |
-| `ai-datacenter-capacity-timeline.csv` | US AI DC power capacity 2020-2030 (actual + projected) | 10 | 2026-03-31 |
+| `ai-datacenter-capacity-timeline.csv` | US AI DC power capacity 2020-2030 (actual + projected) | 10 | 2026-04-19 |
+| `grid-macro-indicators.csv` | Macro grid demand indicators: global TWh, PJM shortfall, AI grid share, fossil % | 4 | 2026-04-19 |
 
 ## Key Columns Reference
 
@@ -68,4 +69,5 @@ Contact: Kinnari Group
 - Tech Insider AI Power Crisis: https://tech-insider.org/ai-data-center-power-crisis-2026/
 - Google Cloud sustainability blog: https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference/
 - LLM Power Tracker: https://llm-tracker.info/_TOORG/Power-Usage-and-Energy-Efficiency
+- Zestlab AI Data Center Energy Crisis 2026: https://zestlab.io/en/trends/ai-data-center-energy-crisis-2026
 - OpenAI Stargate announcement: https://openai.com/index/five-new-stargate-sites/
